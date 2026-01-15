@@ -1,0 +1,1 @@
+import React, { ReactNode } from 'react'; interface ProtectedRouteProps { children: ReactNode; adminOnly?: boolean; } const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, adminOnly = false }) => { return <>{children}</>; }; export default ProtectedRoute;

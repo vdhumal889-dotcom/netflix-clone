@@ -1,0 +1,26 @@
+.App {
+  min-height: 100vh;
+}
+
+a {
+  color: #e50914;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input:focus {
+  outline: 2px solid #e50914;
+  outline-offset: -2px;
+}
